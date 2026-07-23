@@ -1,0 +1,106 @@
+# TechNova Enterprise Network
+
+## 📌 Project Overview
+
+This project demonstrates the design and implementation of a small enterprise network using Cisco Packet Tracer.
+
+The network was designed to improve security, organization, and communication between different departments by implementing VLANs, Layer 3 Switching, Inter-VLAN Routing, and Access Control Lists (ACLs).
+
+---
+
+## 🏢 Departments
+
+- Administration
+- IT
+- Finance
+- Customer Service
+- Server Network
+
+---
+
+## 🛠 Technologies Used
+
+- Cisco Packet Tracer
+- Cisco Catalyst 3560 Multilayer Switch
+- VLANs
+- Trunk Links
+- Layer 3 Switching
+- Inter-VLAN Routing
+- Extended ACL
+- IPv4 Addressing
+
+---
+
+## 🌐 VLAN Configuration
+
+| VLAN | Department | Network |
+|------|------------|----------------|
+| 10 | Administration | 192.168.10.0/24 |
+| 20 | IT | 192.168.20.0/24 |
+| 30 | Finance | 192.168.30.0/24 |
+| 40 | Customer Service | 192.168.40.0/24 |
+| 50 | Server | 192.168.50.0/24 |
+
+---
+
+## 🔒 Security
+
+Implemented an Extended Access Control List (ACL) to protect the server network by restricting unauthorized access from selected departments.
+
+---
+
+## 🧪 Testing
+
+The following tests were successfully completed:
+
+- VLAN communication
+- Inter-VLAN Routing
+- Gateway connectivity
+- Server connectivity
+- ACL verification
+- End-to-End Ping tests
+
+---
+
+## 📁 Project Structure
+
+```
+02-TechNova-Enterprise-Network
+│
+├── Configuration
+│   └── Network-Configuration.md
+│
+├── Packet-Tracer
+│   └── TechNova-Enterprise-Network.pkt
+│
+├── Screenshots
+│   ├── 01-VLANs.png
+│   ├── 02-Trunk.png
+│   ├── 04-Gateway-Configuration.png
+│   ├── 05-InterVLAN-Ping.png
+│   ├── 06-Server-Ping.png
+│   ├── 07-ACL-Test.png
+│   └── 08-Final-Network.png
+│
+└── README.md
+```
+
+---
+
+## 📷 Screenshots
+
+Project screenshots are available inside the **Screenshots** folder.
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Enterprise Network Design
+- VLAN Implementation
+- Layer 3 Switching
+- Routing and Switching
+- Network Security
+- ACL Configuration
+- Troubleshooting
+- Cisco Packet Tracer
+- GitHub Documentation
